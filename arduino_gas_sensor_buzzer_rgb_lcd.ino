@@ -71,8 +71,7 @@ void loop()
     lcd.setCursor(0,1);
     lcd.print(gas_sensor);
               
-    
-
+ 
     Serial.println("System is activated");
     digitalWrite(red_led,HIGH);
     digitalWrite(green_led,LOW);
